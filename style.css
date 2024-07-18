@@ -1,0 +1,88 @@
+/* starter code */
+
+html,
+body {
+  font-size: 100%
+} /* user's default. use rem to set other fonts relative to it */
+
+.bodyWrapper {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box; 
+  -moz-box-sizing: border-box; 
+  box-sizing: border-box;
+} /* make box sizing more predictable! */
+
+
+/*****************************************************************
+*****************************************************************/
+
+/* elements */
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+/*****************************************************************
+*****************************************************************/
+
+
+.flexcontainerGuides {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 10px;
+}
+
+.flexchildGuide {
+  flex: 1 0 200px;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 50px;
+  border-radius: 20px;
+  color: white;
+}
+
+#guide1 {
+  background-color: red;
+}
+
+#guide1:hover {
+  background-color: lightgrey;
+  color: red;
+}
+
+#guide2 {
+  background-color: yellow;
+  color: black;
+}
+
+#guide2:hover {
+  background-color: darkgrey;
+  color: yellow;
+}
+
+#guide3 {
+  background-color: blue;
+}
+
+#guide3:hover {
+  background-color: lightgrey;
+  color: blue;
+}
+
+#guide4 {
+  background-color: green;
+}
+
+#guide4:hover {
+  background-color: lightgrey;
+  color: darkgreen;
+}
