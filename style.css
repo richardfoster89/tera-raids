@@ -86,3 +86,12 @@ a {
   background-color: lightgrey;
   color: darkgreen;
 }
+
+#guide5 {
+  background-color: purple;
+}
+
+#guide5:hover {
+  background-color: lightgrey;
+  color: purple;
+}
