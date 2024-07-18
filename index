@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokemon tera raid guide</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header></header>
+
+  <div class="bodyWrapper">
+
+    <h1>Pokemon tera raid guide</h1>
+    <h3>Your one-stop shop to getting into Scarlet and Violet raids</h3>
+
+    <p>We've got lots of guides to help you get into tera raids. Whether you want to learn what raids are and how they work, you 
+      want to know the process for building a raid-ready Pokemon, or you just need some Pokemon builds, there is something for you 
+      here.
+    </p>
+
+    <p><strong>Follow the links below to get started.</strong></p>
+
+    <h2>The guides:</h2>
+
+    <div class="flexcontainerGuides">
+      <a id="guide1" class="flexchildGuide" href="what-are-tera-raids.html" target="_blank">What are tera raids?</a>
+      <a id="guide2" class="flexchildGuide" href="choosing-the-right-pokemon.html" target="_blank">Choosing the right Pokemon to use</a>
+      <a id="guide3" class="flexchildGuide" href="how-to-build-pokemon.html" target="_blank">How to build a raid-ready Pokemon</a>
+      <a id="guide4" class="flexchildGuide" href="basic-raid-builds.html" target="_blank">Basic raid builds to get you started</a>
+    </div>
+
+  </div>
+
+  <footer></footer>
+
+</body>
+
+</html>
