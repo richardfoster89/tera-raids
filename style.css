@@ -2,14 +2,9 @@
 
 html,
 body {
-  font-size: 100%
+  font-size: 100%;
+  margin: 0;
 } /* user's default. use rem to set other fonts relative to it */
-
-.bodyWrapper {
-  max-width: 900px;
-  margin-left: auto;
-  margin-right: auto;
-}
 
 *,
 *:before,
@@ -20,10 +15,28 @@ body {
 } /* make box sizing more predictable! */
 
 
+
 /*****************************************************************
 *****************************************************************/
 
 /* elements */
+
+body {
+  /*background-color: #1a053a;*/
+  background-color: #2f1557;
+}
+
+header {
+  /*background-color: #694f90;*/
+  background-color: #8e79ad;
+  padding: 20px;
+  color: #080b3b;
+}
+
+header h2 {
+  text-align: right;
+  max-width: 500px;
+}
 
 a {
   text-decoration: none;
@@ -34,20 +47,34 @@ a {
 /*****************************************************************
 *****************************************************************/
 
+.wrapperMain {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 40px;
+  max-width: 900px;
+  color: #bbbce2;
+  font-size: 1.1em;
+  line-height: 1.6;
+}
 
 .flexcontainerGuides {
   display: flex;
   flex-flow: row wrap;
+  margin-top: 30px;
   gap: 10px;
+  justify-content: center;
+  font-size: 0.9em !important
 }
 
 .flexchildGuide {
-  flex: 1 0 200px;
-  font-size: 1.5rem;
   text-align: center;
-  padding: 50px;
   border-radius: 20px;
   color: white;
+  width: 160px;
+  height: 130px;
+  padding: 20px;
+  padding-top: 40px;
+  line-height: 1;
 }
 
 #guide1 {
@@ -94,4 +121,18 @@ a {
 #guide5:hover {
   background-color: lightgrey;
   color: purple;
+}
+
+
+@media (max-width: 450px) {
+  .flexchildGuide {
+    text-align: center;
+    border-radius: 20px;
+    color: white;
+    width: 130px;
+    height: 100px;
+    padding: 20px;
+    padding-top: 25px;
+    font-size: 0.8em;
+  }
 }
