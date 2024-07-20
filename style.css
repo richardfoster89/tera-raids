@@ -23,14 +23,14 @@ body {
 
 body {
   /*background-color: #1a053a;*/
-  background-color: #2f1557;
+  background-color: #37167c;
 }
 
 header {
   /*background-color: #694f90;*/
-  background-color: #8e79ad;
+  background-color: #dfd6da;
   padding: 20px;
-  color: #080b3b;
+  color: #1d2352;
 }
 
 header h2 {
@@ -52,7 +52,7 @@ a {
   margin-right: 10%;
   margin-top: 40px;
   max-width: 900px;
-  color: #bbbce2;
+  color: #dfd6da;
   font-size: 1.1em;
   line-height: 1.6;
 }
@@ -69,60 +69,21 @@ a {
 .flexchildGuide {
   text-align: center;
   border-radius: 20px;
-  color: white;
+  color: #dfd6da;
   width: 160px;
   height: 130px;
   padding: 20px;
   padding-top: 40px;
   line-height: 1;
+  background-color: #1d2352;
+  border: 4px solid #e9b568;
 }
 
-#guide1 {
-  background-color: red;
+.flexchildGuide:hover {
+  background-color: rgb(93, 93, 93);
+  color: #e9b568;
+  border: 4px solid #4faead;
 }
-
-#guide1:hover {
-  background-color: lightgrey;
-  color: red;
-}
-
-#guide2 {
-  background-color: yellow;
-  color: black;
-}
-
-#guide2:hover {
-  background-color: darkgrey;
-  color: yellow;
-}
-
-#guide3 {
-  background-color: blue;
-}
-
-#guide3:hover {
-  background-color: lightgrey;
-  color: blue;
-}
-
-#guide4 {
-  background-color: green;
-}
-
-#guide4:hover {
-  background-color: lightgrey;
-  color: darkgreen;
-}
-
-#guide5 {
-  background-color: purple;
-}
-
-#guide5:hover {
-  background-color: lightgrey;
-  color: purple;
-}
-
 
 @media (max-width: 450px) {
   .flexchildGuide {
