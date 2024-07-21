@@ -1,4 +1,7 @@
 /* starter code */
+html {
+  font-family:'Trebuchet MS', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 
 html,
 body {
@@ -57,43 +60,34 @@ a {
   line-height: 1.6;
 }
 
-.flexcontainerGuides {
-  display: flex;
-  flex-flow: row wrap;
-  margin-top: 30px;
-  gap: 10px;
-  justify-content: center;
-  font-size: 0.9em !important
+.gridcontainerGuides {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 2rem;
+  font-size: 0.9em;
 }
 
 .flexchildGuide {
+  display: flex;
+  justify-content: center;
   text-align: center;
-  border-radius: 20px;
+  align-items: center;
+  border-radius: 25px;
   color: #dfd6da;
-  width: 160px;
-  height: 130px;
-  padding: 20px;
-  padding-top: 40px;
-  line-height: 1;
+  height: 100px;
   background-color: #1d2352;
   border: 4px solid #e9b568;
+  padding: 15px;
 }
 
 .flexchildGuide:hover {
-  background-color: rgb(93, 93, 93);
-  color: #e9b568;
-  border: 4px solid #4faead;
+  background-color: #4faead;
+  color: #37167c;
+  border: 4px solid #e9b568;
 }
 
-@media (max-width: 450px) {
-  .flexchildGuide {
-    text-align: center;
-    border-radius: 20px;
-    color: white;
-    width: 130px;
-    height: 100px;
-    padding: 20px;
-    padding-top: 25px;
-    font-size: 0.8em;
+@media (max-width: 525px) {
+  .gridcontainerGuides {
+    gap: 1rem;
   }
 }
